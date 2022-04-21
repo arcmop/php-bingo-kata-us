@@ -1,5 +1,5 @@
 ## Features
-### Feature: Calling Bingo Numbers
+### Feature 01: Calling Bingo Numbers
 - As a VP of Gaming
   I want my game to call out Bingo numbers
   So that people can play with their cards
@@ -13,7 +13,7 @@
   - Then all numbers between 1 and 75 are present 
     And no number has been called more than once
 
-### Feature: Generating Bingo Cards
+### Feature 02: Generating Bingo Cards
 - As a VP of Gaming
   I want my game to generate random Bingo cards
   So that people can play
@@ -24,7 +24,7 @@
     And column $column only contains numbers between $lowerBound and $upperBound inclusive
     And the generated card has 1 FREE space in the middle
 
-### Feature: Checking Bingo Cards
+### Feature 03: Checking Bingo Cards
 - As a VP of Gaming
   I want my game to check player's cards when they call Bingo
   So that a winner can be decided
