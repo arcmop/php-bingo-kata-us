@@ -38,6 +38,8 @@
   - Then the player is not the winner
 
 ## Run
+```sh
 docker run -it --entrypoint sh -v $PWD:/mnt -w /mnt composer:latest
 composer install
 ./vendor/bin/phpunit tests
+```
